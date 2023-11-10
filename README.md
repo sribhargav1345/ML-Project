@@ -27,13 +27,3 @@ For the final submission, we aim to enhance model accuracy using Convolutional N
 ## Final Deliverables
 Our final deliverables will include improved machine learning models, a detailed report on methodology, findings, and techniques to overcome segmentation challenges.
 
-## Code Example
-Check out the Jupyter Notebook (`ml_proj.ipynb`) for an example of using Nearest Neighbors with K-means clustering to assess accuracy.
-
-```python
-# Code snippet from ml_proj.ipynb
-from sklearn.neighbors import NearestNeighbors
-
-# ... (previous code)
-
-print(f"Accuracy using Nearest Neighbors with K-means: {accuracy*100:.2f}%")
