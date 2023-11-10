@@ -11,7 +11,7 @@ This repository contains the code and documentation for the Handwriting to Digit
 ## Project Description
 ### 1. Data Pre-processing
 We utilized the MNIST and EMNIST datasets, comprising over 400,000 handwritten words for character recognition. The data was divided into training (331,059), testing (41,382), and validation sets (41,382). The preprocessing involved flattening images into a 1D array and using Principal Component Analysis (PCA) for dimensionality reduction (64 components).
-a sample train , test folder have uploded, these contain very few images just for an example https://github.com/VaibhavKhamgaonkar/OCR.
+a sample train , test folder have uploded, these contain very few images, link for train dataset : https://github.com/VaibhavKhamgaonkar/OCR, test dataset : https://www.kaggle.com/datasets/landlord/handwriting-recognition.
 
 ### 2. Training with Basic Models
 We employed Support Vector Machines (SVM) and K-Means clustering for training. The SVM model achieved 79% accuracy, while the K-Means clustering model achieved 15%. The completed data pipeline includes collecting and preprocessing data, PCA transformation, and model training/validation.
