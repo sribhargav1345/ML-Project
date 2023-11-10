@@ -14,7 +14,7 @@ We utilized the MNIST and EMNIST datasets, comprising over 400,000 handwritten w
 a sample train , test folder have uploded, these contain very few images, link for train dataset : https://github.com/VaibhavKhamgaonkar/OCR, test dataset : https://www.kaggle.com/datasets/landlord/handwriting-recognition.
 
 ### 2. Training with Basic Models
-We employed Support Vector Machines (SVM) and K-Means clustering for training. The SVM model achieved 79% accuracy, while the K-Means clustering model achieved 15%. The completed data pipeline includes collecting and preprocessing data, PCA transformation, and model training/validation.
+We employed Support Vector Machines (SVM) and K-Means clustering for training. The SVM model achieved 79% accuracy, while the K-Means clustering model achieved 75%. The completed data pipeline includes collecting and preprocessing data, PCA transformation, and model training/validation.
 
 ### 3. Future Objectives and Challenges
 For the final submission, we aim to enhance model accuracy using Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN). Challenges include improving segmentation accuracy, which we plan to address through alternative models and techniques.
