@@ -16,6 +16,8 @@ A sample images from the training and validation dataset:
 
 <img src="Train/&/__0_1344062.png" alt="And character" width="300"/>
 
+<img src="Train/0/_1_2.jpg" alt="zero character" width="300"/>
+
 ### 2. Training with Basic Models
 We employed Support Vector Machines (SVM) and K-Means clustering for training. The SVM model achieved 79% accuracy, while the K-Means clustering model achieved 75%. The completed data pipeline includes collecting and preprocessing data, PCA transformation, and model training/validation.
 
