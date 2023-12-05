@@ -25,16 +25,16 @@ A sample image from the testing dataset:
 <img src="Test/Test_005.jpg" alt="testing dataset" width="300"/>
 
 
-### 2. Training with Basic Models
-We employed Support Vector Machines (SVM) and K-Means clustering for training. The SVM model achieved 79% accuracy, while the K-Means clustering model achieved 75%. The completed data pipeline includes collecting and preprocessing data, PCA transformation, and model training/validation.
+### 2. Models Used
+Our project successfully identified handwriting in images, achieving a commendable accuracy
+of approximately 93%. We conducted extensive experiments, exploring various models such as
+Convolutional Neural Networks (CNN)-7 models used,Resnet -3 models used Support Vector Machines (SVM), K-Means
+clustering, and Hidden Markov Models (HMMs) for character recognition.We have successfully implemented an ensemble approach using the three models that yielded the highest accuracy. This ensemble leverages the predictive power of the top-performing models to enhance the overall performance, resulting in a more robust and accurate system
 
-### 3. Future Objectives and Challenges
-For the final submission, we aim to enhance model accuracy using Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN). Challenges include improving segmentation accuracy, which we plan to address through alternative models and techniques.
-
-### 4. Individual Contributions
-- **Data Collection:** All group members contributed.
-- **Data Preprocessing, Feature Extraction, Testing:** Nikhil and Aditya.
-- **SVM, Grapheme Segmentation, K-Means:** Aditya and Bhargav.
+### 3. Individual Contributions
+- **J V Aditya:** Pre-processing and Image Enhancement,SVM Model,Grapheme Segmentation,Ensembling.
+- **Chiruvolu Nikhil:** Feature Extraction,7 different CNN models,Hidden Markov Models.
+- **Bollapragada Sri Bhargav:** 3 different ResNet Models,. C-RNN Networks,K-Means Clustering.
 
 ## Final Deliverables
 Our final deliverables will include improved machine learning models, a detailed report on methodology, findings, and techniques to overcome segmentation challenges.
