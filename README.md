@@ -2,6 +2,7 @@
 
 ## Overview
 This repository contains the code and documentation for the Handwriting to Digital Text Conversion (H2DTC) project, developed as part of CS550, Project Phase 1 at IIT Bhilai.
+The projct code can found in the `ML Final.ipynb` file and the HMM model can be found under `hmm_model.ipynb` file. Report can be found under `ML_Project Report.pdf`.
 
 ### Team Members
 - JV Aditya (12140840)
@@ -34,8 +35,5 @@ clustering, and Hidden Markov Models (HMMs) for character recognition.We have su
 ### 3. Individual Contributions
 - **J V Aditya:** Pre-processing and Image Enhancement,SVM Model,Grapheme Segmentation,Ensembling.
 - **Chiruvolu Nikhil:** Feature Extraction,7 different CNN models,Hidden Markov Models.
-- **Bollapragada Sri Bhargav:** 3 different ResNet Models,. C-RNN Networks,K-Means Clustering.
-
-## Final Deliverables
-Our final deliverables will include improved machine learning models, a detailed report on methodology, findings, and techniques to overcome segmentation challenges.
+- **Bollapragada Sri Bhargav:** 3 different ResNet Models,. C-RNN Networks,K-Means Clustering
 
